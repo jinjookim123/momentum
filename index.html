@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://imgproxy.natucate.com/M7OjFSNJAlUZhsKnmrtB7A0CcmJWkv7T9ICN32lcceU/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvNDI4YTYzZWUtMmYzOS00YmFjLTgwY2UtNmY2N2Y4Yzc1NzJlLzM3NzQ1NjY5OTktMTU1OTY1ODkzOS9zcGFuaWVuLWxhZW5kZXJpbmZvcm1hdGlvbmVuLXN0YWR0LW96ZWFuLXdhc3Nlci1uYXR1Y2F0ZS5qcGc");
+            background-size: 100%;
+
+            color : black;
+        }
+
+        .time {
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+        }
+
+        .todo {
+            font-size: 30px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time"></div>
+        <div class="greeting">Hola, Jinjoo!</div>
+        <div class="todo">독서하기</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+</body>
+
+</html>
